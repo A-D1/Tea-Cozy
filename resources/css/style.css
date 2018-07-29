@@ -125,3 +125,13 @@ nav a {
 .location_box p {
   padding: 20px;
 }
+/* Contact */
+.contact {
+  display: block;
+  margin-top: 0px;
+  height: 200px;
+}
+.contact_title,
+.contact_details {
+  padding-bottom: 25px;
+}
