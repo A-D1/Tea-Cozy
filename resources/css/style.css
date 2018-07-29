@@ -1,3 +1,9 @@
+/* Universal Styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* HTML */
 body {
   background: black;
   font-family: Helvetica, sans-serif;
@@ -6,6 +12,7 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+/* Header */
 header {
   display: flex;
   height: 69px;
@@ -14,6 +21,10 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   align-items: center;
+  background-color: black;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 1px;
 }
 .logo {
   margin-left: 10px;
@@ -30,4 +41,25 @@ nav a {
   color: seashell;
   opacity: 0.9;
   padding-right: 20px;
+}
+/* Our Mission Section*/
+.mission_section {
+  display: flex;
+  background-image: url("../images/m-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  top: 71px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  height: 38px;
+  padding: 10px;
 }
