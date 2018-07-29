@@ -63,3 +63,33 @@ nav a {
   height: 38px;
   padding: 10px;
 }
+/* Tea of the Month Section */
+.tea_month_section {
+  display: block;
+  width: 1000px;
+  margin: 100px auto;
+}
+.images_section img {
+  height: 200px;
+  width: 300px;
+}
+.top_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 100px;
+}
+.top_section h2,
+.top_section h4 {
+  padding: 10px;
+}
+.images_section {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.images_section div {
+  padding: 10px;
+}
